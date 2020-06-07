@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="240.0" y="380.0">utcn.sergiucraciun.services.NotificationService</node>
+    <node x="0.0" y="232.0">utcn.sergiucraciun.factories.WeeklyReportFactory</node>
+    <node x="531.0" y="528.0">utcn.sergiucraciun.services.UserService</node>
+    <node x="361.0" y="528.0">utcn.sergiucraciun.models.GroceryList</node>
+    <node x="434.0" y="153.0">utcn.sergiucraciun.repositories.ConsumptionItemRepository</node>
+    <node x="0.0" y="306.0">utcn.sergiucraciun.FoodWasteAppApplication</node>
+    <node x="0.0" y="602.0">utcn.sergiucraciun.generators.ReportType</node>
+    <node x="123.25" y="153.0">utcn.sergiucraciun.factories.ReportFactory</node>
+    <node x="191.0" y="528.0">utcn.sergiucraciun.models.GroceryItem</node>
+    <node x="130.25" y="0.0">utcn.sergiucraciun.generators.ReportGenerator</node>
+    <node x="466.0" y="380.0">utcn.sergiucraciun.services.GroceryListService</node>
+    <node x="0.0" y="454.0">utcn.sergiucraciun.services.GroceryItemService</node>
+    <node x="298.0" y="602.0">utcn.sergiucraciun.models.User</node>
+    <node x="201.0" y="232.0">utcn.sergiucraciun.factories.MonthlyReportFactory</node>
+    <node x="219.0" y="454.0">utcn.sergiucraciun.factories.ReportTypeFactory</node>
+    <node x="0.0" y="380.0">utcn.sergiucraciun.repositories.GroceryItemRepository</node>
+    <node x="163.0" y="602.0">utcn.sergiucraciun.models.Report</node>
+    <node x="431.0" y="454.0">utcn.sergiucraciun.models.ConsumptionItem</node>
+    <node x="215.0" y="79.0">utcn.sergiucraciun.generators.MonthlyReportGenerator</node>
+    <node x="0.0" y="79.0">utcn.sergiucraciun.generators.WeeklyReportGenerator</node>
+    <node x="0.0" y="528.0">utcn.sergiucraciun.repositories.UserRepository</node>
+    <node x="501.0" y="306.0">utcn.sergiucraciun.repositories.GroceryListRepository</node>
+    <node x="254.0" y="306.0">utcn.sergiucraciun.services.ConsumptionItemService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="utcn.sergiucraciun.factories.WeeklyReportFactory" target="utcn.sergiucraciun.factories.ReportFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="90.5" y="207.0" />
+      <point x="158.0" y="207.0" />
+      <point x="-34.75" y="14.5" />
+    </edge>
+    <edge source="utcn.sergiucraciun.generators.MonthlyReportGenerator" target="utcn.sergiucraciun.generators.ReportGenerator">
+      <point x="0.0" y="-14.5" />
+      <point x="316.0" y="54.0" />
+      <point x="245.0" y="54.0" />
+      <point x="38.25" y="14.5" />
+    </edge>
+    <edge source="utcn.sergiucraciun.generators.WeeklyReportGenerator" target="utcn.sergiucraciun.generators.ReportGenerator">
+      <point x="0.0" y="-14.5" />
+      <point x="97.5" y="54.0" />
+      <point x="168.5" y="54.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="utcn.sergiucraciun.factories.MonthlyReportFactory" target="utcn.sergiucraciun.factories.ReportFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="295.0" y="207.0" />
+      <point x="227.5" y="207.0" />
+      <point x="34.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="67.5" y="202.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
